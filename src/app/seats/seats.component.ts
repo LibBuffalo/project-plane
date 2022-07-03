@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SeatsComponent implements OnInit {
 
+  public takenSeats : any[] = [];
+
+  public availableSeats : any[] = [];
+  
   constructor() { }
 
   ngOnInit(): void {
